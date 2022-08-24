@@ -1,0 +1,240 @@
+.header {
+    background-color: rgb(20,20,20);
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    overflow: visible;
+    width: 100%;
+    opacity: 0.9;
+}
+*
+{
+    font-family: 'Open Sans', sans-serif;
+}
+body {
+    margin: 0;
+    background-color: rgb(20,20,20);
+}
+.logo {
+height: 55px;
+}
+.resume {
+    font-family: 'Open Sans', sans-serif;
+    color: white;   
+}
+.resume :hover {
+    color: purple;
+}
+.resume ul{
+display: flex;
+flex-direction: row;
+box-sizing: border-box;
+border: 10px;
+border-color: solid white;
+text-align: end;
+position: relative;
+}
+.resume li{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.background-img {
+    text-align: center;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#email {
+    width: 285px;
+    height: 30px;
+    background: none;
+    border: 2px solid darkgray;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    padding: 10px;
+}
+#name {
+    width: 285px;
+    height: 30px;
+    margin-top: 10px;
+    background: none;
+    border: 2px solid darkgray;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    padding: 10px;
+
+}
+#subject {
+    width: 600px;
+    height: 30px;
+    margin-top: 10px;
+    background: none;
+    border: 2px solid darkgray;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    padding: 10px;
+}
+#yourMessage {
+    width: 600px;
+    height: 100px;
+    margin-top: 10px;
+    background: none;
+    border: 2px solid darkgray;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    padding: 10px;
+
+}
+#submit {
+    font-family: 'Open Sans', sans-serif;
+    font-size: large;
+    font-weight: bold;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    background: none;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+#submit:hover {
+    background-color: white;
+    color: black;
+}
+textarea {
+    resize: none;
+}
+input {
+    width: 90px;
+    height: 40px;
+    font-family: 'Open Sans', sans-serif;
+}
+::placeholder {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    margin: auto;
+    padding: 10px;
+}
+.contact_form {
+text-align: center;
+display: flex;
+flex-direction: column;
+padding: 2rem;
+}
+.form_label {
+    display: flex;
+    flex-direction: column;
+}
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 400%;
+    font-style: bold;
+    text-align: center;
+    color: white;
+    display: block;
+}
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 200%;
+    text-align: center;
+    color: white;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 50px;
+}
+h3 {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 200%;
+    padding-left: 50px;
+    padding-right: 50px;    
+}
+h4 {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 150%;
+    padding-left: 50px;
+    padding-right: 50px;    
+    font-weight: lighter;
+}
+p {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    padding-left: 200px;
+    padding-right: 200px;
+    text-align: center;
+}
+span {
+    font-style: bold;
+}
+li{ 
+    color: white;
+    padding-left: 160px;
+    padding-right: 160px;
+    list-style: none;
+       
+}
+.social-media-icons {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 40px;
+}
+.social-media-linkedin {
+    color: darkgrey;
+    display: inline-block;
+}
+.social-media-instagram {
+    color: darkgrey;
+}
+.social-media-icons :hover {
+    color: white;
+}
+.intro {
+    box-sizing: border-box;
+    border-color: solid white;
+    text-align: center;
+}
+.icons ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    position: absolute;
+}
+.icons li{
+    display: inline-block;
+    padding: 10px
+}
+a {
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+}
+#Back_Top {
+    display: flex;
+    flex-direction: row;
+    border-radius: 1000px;
+    width: 60px;
+    height: 60px;
+    background-color: darkgray;
+    cursor: pointer;
+    position: absolute;
+    margin-left: 800px;
+}
+.back2top :hover {
+    color: black;
+    background-color: white;
+}
+.back2top {
+    width: 60px;
+    height: 60px; 
+    color: black;
+}

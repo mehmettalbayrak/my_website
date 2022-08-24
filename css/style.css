@@ -1,0 +1,152 @@
+.header {
+    background-color: rgb(20,20,20);
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    overflow: visible;
+    width: 100%;
+    opacity: 0.9;
+}
+body {
+    margin: 0;
+    background-color: rgb(20,20,20);
+}
+.logo {
+height: 55px;
+}
+.resume {
+    font-family: 'Open Sans', sans-serif;
+    color: white;   
+}
+.resume:hover {
+    color: purple;
+}
+.resume ul{
+display: flex;
+flex-direction: row;
+box-sizing: border-box;
+border: 10px;
+border-color: solid white;
+text-align: end;
+position: relative;
+}
+.resume li{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.profile {
+    border-radius: 1000px;
+    width: 200px;
+    height: 200px;
+    margin: 80px;
+    border: 2px solid black;
+}
+.background-img {
+    text-align: center;
+    background-image: url("https://mcoc-tr.github.io/images/unsplash_brooklyn-bridge_header.jpg");
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 400%;
+    font-style: bold;
+    text-align: center;
+    color: white;
+    display: block;
+}
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 200%;
+    text-align: center;
+    color: white;
+    display: flex;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+h3 {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 200%;
+    padding-left: 50px;
+    padding-right: 50px;    
+}
+p {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    padding-left: 200px;
+    padding-right: 200px;
+    text-align: center;
+}
+span {
+    font-style: bold;
+}
+li{ 
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    list-style: none;
+    font-family: 'Open Sans', sans-serif;
+       
+}
+.social-media-icons {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 40px;
+}
+.social-media-linkedin {
+    color: darkgrey;
+    display: inline-block;
+}
+.social-media-instagram {
+    color: darkgrey;
+}
+.social-media-icons :hover {
+    color: white;
+}
+.intro {
+    box-sizing: border-box;
+    border-color: solid white;
+    text-align: center;
+}
+.icons ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    position: absolute;
+}
+.icons li{
+    display: inline-block;
+    padding: 10px
+}
+a {
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+}
+#Back_Top {
+    display: flex;
+    flex-direction: row;
+    border-radius: 1000px;
+    width: 60px;
+    height: 60px;
+    background-color: darkgray;
+    cursor: pointer;
+    position: absolute;
+    margin-left: 800px;
+}
+.back2top :hover {
+    color: black;
+    background-color: white;
+}
+.back2top {
+    width: 60px;
+    height: 60px; 
+    color: black;
+}
