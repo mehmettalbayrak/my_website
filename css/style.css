@@ -132,14 +132,17 @@ a {
 }
 #Back_Top {
     display: flex;
+    overflow: visible;
     flex-direction: row;
     border-radius: 1000px;
     width: 60px;
     height: 60px;
     background-color: darkgray;
     cursor: pointer;
-    position: absolute;
-    margin-left: 800px;
+    margin: auto;
+    justify-content: flex-end;
+    padding: 0;
+    margin: 0;
 }
 .back2top :hover {
     color: black;
